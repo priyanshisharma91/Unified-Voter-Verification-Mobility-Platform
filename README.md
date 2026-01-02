@@ -19,7 +19,7 @@ Creating a secure and interoperable system to synchronize voter data across stat
 
 ## Status
 This is a functional prototype created for demonstration and validation purposes.
-**##** **Project** **Prototype**
+**Prototype** **URL**
 **https://vote-flow-link.lovable.app**
 
 ## Team
