@@ -1,0 +1,76 @@
+export const states = [
+  { value: 'andhra-pradesh', label: 'Andhra Pradesh' },
+  { value: 'arunachal-pradesh', label: 'Arunachal Pradesh' },
+  { value: 'assam', label: 'Assam' },
+  { value: 'bihar', label: 'Bihar' },
+  { value: 'chhattisgarh', label: 'Chhattisgarh' },
+  { value: 'goa', label: 'Goa' },
+  { value: 'gujarat', label: 'Gujarat' },
+  { value: 'haryana', label: 'Haryana' },
+  { value: 'himachal-pradesh', label: 'Himachal Pradesh' },
+  { value: 'jharkhand', label: 'Jharkhand' },
+  { value: 'karnataka', label: 'Karnataka' },
+  { value: 'kerala', label: 'Kerala' },
+  { value: 'madhya-pradesh', label: 'Madhya Pradesh' },
+  { value: 'maharashtra', label: 'Maharashtra' },
+  { value: 'manipur', label: 'Manipur' },
+  { value: 'meghalaya', label: 'Meghalaya' },
+  { value: 'mizoram', label: 'Mizoram' },
+  { value: 'nagaland', label: 'Nagaland' },
+  { value: 'odisha', label: 'Odisha' },
+  { value: 'punjab', label: 'Punjab' },
+  { value: 'rajasthan', label: 'Rajasthan' },
+  { value: 'sikkim', label: 'Sikkim' },
+  { value: 'tamil-nadu', label: 'Tamil Nadu' },
+  { value: 'telangana', label: 'Telangana' },
+  { value: 'tripura', label: 'Tripura' },
+  { value: 'uttar-pradesh', label: 'Uttar Pradesh' },
+  { value: 'uttarakhand', label: 'Uttarakhand' },
+  { value: 'west-bengal', label: 'West Bengal' },
+  { value: 'delhi', label: 'Delhi' },
+];
+
+export const constituenciesByState: Record<string, { value: string; label: string }[]> = {
+  'maharashtra': [
+    { value: 'mumbai-north', label: 'Mumbai North' },
+    { value: 'mumbai-south', label: 'Mumbai South' },
+    { value: 'pune', label: 'Pune' },
+    { value: 'nagpur', label: 'Nagpur' },
+    { value: 'thane', label: 'Thane' },
+  ],
+  'karnataka': [
+    { value: 'bangalore-north', label: 'Bangalore North' },
+    { value: 'bangalore-south', label: 'Bangalore South' },
+    { value: 'mysore', label: 'Mysore' },
+    { value: 'mangalore', label: 'Mangalore' },
+  ],
+  'delhi': [
+    { value: 'new-delhi', label: 'New Delhi' },
+    { value: 'south-delhi', label: 'South Delhi' },
+    { value: 'east-delhi', label: 'East Delhi' },
+    { value: 'north-delhi', label: 'North Delhi' },
+    { value: 'west-delhi', label: 'West Delhi' },
+  ],
+  'tamil-nadu': [
+    { value: 'chennai-north', label: 'Chennai North' },
+    { value: 'chennai-south', label: 'Chennai South' },
+    { value: 'coimbatore', label: 'Coimbatore' },
+    { value: 'madurai', label: 'Madurai' },
+  ],
+  'uttar-pradesh': [
+    { value: 'lucknow', label: 'Lucknow' },
+    { value: 'varanasi', label: 'Varanasi' },
+    { value: 'kanpur', label: 'Kanpur' },
+    { value: 'agra', label: 'Agra' },
+    { value: 'noida', label: 'Gautam Buddha Nagar' },
+  ],
+};
+
+// Default constituencies for states not listed
+export const defaultConstituencies = [
+  { value: 'central', label: 'Central' },
+  { value: 'north', label: 'North' },
+  { value: 'south', label: 'South' },
+  { value: 'east', label: 'East' },
+  { value: 'west', label: 'West' },
+];
