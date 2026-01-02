@@ -8,7 +8,7 @@ Creating a secure and interoperable system to synchronize voter data across stat
 ## Features
 - User authentication (login & role-based access)
 - Voter verification flow
-- Unified voter record view
+- Unified voter record view 
 - Admin dashboard (prototype level)
 - Secure UI-first design
 
