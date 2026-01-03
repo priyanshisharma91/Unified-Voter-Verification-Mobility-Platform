@@ -6,7 +6,7 @@ This project focuses on reducing duplicate voter entries, enabling voter mobilit
 >  This is a **functional prototype** created for hackathon and academic demonstration purposes only.
 
 ---
-
+ 
 ##  Problem Addressed
 
 Election systems face challenges such as:
