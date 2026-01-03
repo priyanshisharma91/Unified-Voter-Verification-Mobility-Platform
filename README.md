@@ -38,21 +38,19 @@ This prototype demonstrates how a **technology-driven architecture** can concept
 
 
 ##  Folder Structure
-Unified-Voter-Verification-Mobility-Platform/
-│
-├── src/
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Application pages (Login, Register, Dashboard)
-│ ├── routes/ # Client-side routing configuration
-│ ├── assets/ # Images, icons, and static files
-│ ├── App.tsx # Root application component
-│ └── main.tsx # Application entry point
-│
-├── public/ # Public static assets
-├── index.html # Main HTML template
-├── package.json # Project dependencies and scripts
-├── vite.config.ts # Vite configuration
-└── README.md # Project documentation
+
+---
+
+- **`src/`** – Core application source code  
+- **`components/`** – Reusable UI building blocks  
+- **`pages/`** – Screens representing user workflows  
+- **`routes/`** – Handles client-side navigation  
+- **`assets/`** – Static resources (icons, images)  
+- **`App.tsx`** – Root component  
+- **`main.tsx`** – Entry point for React rendering  
+
+---
+
 
 Component-based architecture improves maintainability and scalability.
 
