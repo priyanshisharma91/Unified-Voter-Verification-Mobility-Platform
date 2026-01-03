@@ -1,13 +1,13 @@
-# 🗳️ Unified Voter Verification & Mobility Platform
+#  Unified Voter Verification & Mobility Platform
 
 A web-based prototype demonstrating a **secure, interoperable voter verification and mobility system** designed for large-scale elections.  
 This project focuses on reducing duplicate voter entries, enabling voter mobility across states, and showcasing transparent verification workflows using modern web technologies.
 
-> ⚠️ This is a **functional prototype** created for hackathon and academic demonstration purposes only.
+>  This is a **functional prototype** created for hackathon and academic demonstration purposes only.
 
 ---
 
-## 🎯 Problem Addressed
+##  Problem Addressed
 
 Election systems face challenges such as:
 - Duplicate voter records across multiple states  
@@ -17,7 +17,7 @@ Election systems face challenges such as:
 
 This prototype demonstrates how a **technology-driven architecture** can conceptually address these challenges.
 
-## 🧠 How the System Works (High-Level Logic)
+##  How the System Works (High-Level Logic)
 
 1. **Voter Registration**
    - User submits personal details
@@ -37,7 +37,7 @@ This prototype demonstrates how a **technology-driven architecture** can concept
    - Transparent data flow is represented via UI states
 
 
-## 🧩 Folder Structure
+##  Folder Structure
 Unified-Voter-Verification-Mobility-Platform/
 │
 ├── src/
@@ -56,7 +56,7 @@ Unified-Voter-Verification-Mobility-Platform/
 
 Component-based architecture improves maintainability and scalability.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Frontend:** React (TypeScript)  
 - **Styling:** Tailwind CSS  
@@ -64,7 +64,7 @@ Component-based architecture improves maintainability and scalability.
 - **Deployment:** GitHub Pages (static hosting)  
 - **IDE:** Visual Studio Code (recommended)
 
-## ⚙️ Installation Guide
+##  Installation Guide
 
 ### Prerequisites
 - Node.js (v18 or later): https://nodejs.org/  
