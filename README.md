@@ -82,9 +82,7 @@ npm install
 
 # Start the development server
 npm run dev
-----
-## **Live Prototype**
-
-**Prototype URL:**  
+```
+### Prototype URL
 https://vote-flow-link.lovable.app
 
